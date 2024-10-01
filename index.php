@@ -423,7 +423,7 @@
     <?php include "header.php"; ?>
 
     <section id="hero-section">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-wrap="true" data-bs-pause="false">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="4500">
                     <img src="./imgs/slide1.jpg" class="d-block w-100" alt="image">
@@ -450,12 +450,12 @@
             </div>
             <button class="carousel-control-prev ms-2 ms-lg-5 d-none d-md-block" type="button"
                 data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                <span aria-hidden="true"><img src="./imgs/right-arrow.png" alt="" style="width: 50px; width:50px;"></span>
+                <span aria-hidden="true"><img src="./imgs/right-arrow.svg" alt="image" style="width: 50px; width:50px;"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next me-2 me-lg-5 d-none d-md-block" type="button"
                 data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                <span aria-hidden="true"><img src="./imgs/left-arrow.png" alt="" style="width: 50px; width:50px;"></span>
+                <span aria-hidden="true"><img src="./imgs/left-arrow.svg" alt="image" style="width: 50px; width:50px;"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
